@@ -162,7 +162,7 @@ if __name__ == "__main__":
     # simple usage example
     import matplotlib.pyplot as plt
 
-    # depth grid and temperature profiles from AIRS data
+    # depth grid (g/cm^2) and temperature profiles (K) from AIRS data
     depth = np.array([1.0, 1.5, 2.0, 3.0, 5.0, 7.0, 10.0, 15.0, 20.0, 30.0, 50.0, 70.0, 100.0,
                       150.0, 200.0, 250.0, 300.0, 400.0, 500.0, 600.0, 700.0]) * 1.019
     temp_summer = np.array([291.44, 284.90, 278.24, 270.21, 259.60, 252.24, 246.05, 239.98, 237.27,
